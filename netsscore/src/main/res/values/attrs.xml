@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--交替ProgressBar-->
+    <declare-styleable name="NetsScoreView">
+        <attr name="NetsColor" format="color"/>
+        <attr name="ScoreLineColor" format="color"/>
+        <attr name="ScoreFillColor" format="color"/>
+        <attr name="ScoreTxtColor" format="color"/>
+        <attr name="EdgeCount" format="integer"/>
+        <attr name="TxtSize" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>
