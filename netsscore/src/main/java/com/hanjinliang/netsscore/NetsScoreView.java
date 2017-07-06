@@ -340,12 +340,12 @@ public class NetsScoreView extends View {
             Log.e("NetsScoreView","最少需要三条边");
             return;
         }
-        mEdgeCount=edgeCount;
-        this.scores=scores;
         if(mEdgeCount!=scores.length){
             Log.e("NetsScoreView","边数和分数数组长度必须一致");
             return;
         }
+        mEdgeCount=edgeCount;
+        this.scores=scores;
         invalidate();
     }
 
