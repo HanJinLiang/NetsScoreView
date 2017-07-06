@@ -15,7 +15,7 @@ allprojects {
 ## 在项目gradle添加
 ``` java
   dependencies {
-	        compile 'com.github.HanJinLiang:NetsScoreView:V1.0.0'
+	        compile 'com.github.HanJinLiang:NetsScoreView:V1.0.1'
 	}
 ```
 # 使用说明
