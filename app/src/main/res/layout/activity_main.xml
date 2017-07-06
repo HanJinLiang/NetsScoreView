@@ -5,12 +5,20 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    xmlns:netsscore="http://schemas.android.com/apk/res-auto"
     >
 
     <com.hanjinliang.netsscore.NetsScoreView
         android:id="@+id/NetsScoreView"
         android:layout_width="300dp"
-        android:layout_height="300dp"/>
+        android:layout_height="300dp"
+        netsscore:NetsColor="#afafaf"
+        netsscore:ScoreFillColor="#60FF4081"
+        netsscore:ScoreLineColor="#FF4081"
+        netsscore:ScoreTxtColor="#2b2b2b"
+        netsscore:MaxScore="100"
+        netsscore:EdgeCount="6"
+        netsscore:TxtSize="14sp" />
 
     <ScrollView
         android:layout_width="match_parent"
